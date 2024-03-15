@@ -24,8 +24,8 @@ Here's how to communicate with the main process from renderer using [rpc-electro
 ## This is a provided example of it being implamented in my project browser-base-updated
 
 ```bash
-    "@wexond/rpc-core": "file:./base-rpc/packages/rpc-core",
-    "@wexond/rpc-electron": "file:./base-rpc/packages/rpc-electron",
+"@wexond/rpc-core": "file:./base-rpc/packages/rpc-core",
+"@wexond/rpc-electron": "file:./base-rpc/packages/rpc-electron",
 ```
 
 - Create a file that is imported in both main and renderer processes, for example `ping-pong.ts`:
