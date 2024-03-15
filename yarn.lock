@@ -1108,7 +1108,7 @@
   integrity sha512-sL/cEvJWAnClXw0wHk85/2L0G6Sj8UB0Ctc1TEMbKSsmpRosqhwj9gWgFRZSrBr2f9tiXISwNhCPmlfqUqyb9Q==
 
 "@wexond/rpc-core@file:packages/rpc-core":
-  version "1.0.3"
+  version "1.0.4"
 
 "@zkochan/cmd-shim@^3.1.0":
   version "3.1.0"
@@ -2339,7 +2339,7 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
 
-electron@^29.1.1:
+electron@^29.1.4:
   version "29.1.4"
   resolved "https://registry.yarnpkg.com/electron/-/electron-29.1.4.tgz#6c47467ba50be5dd60b99b8737f69cd12fc0733f"
   integrity sha512-IWXys0SqgmIfrqXusUGQC0gGG7CCqA5vfmNsUMj8dFkAnK3lisKyjSESStWlrsste/OX/AAC5wsVlf23reUNnw==
