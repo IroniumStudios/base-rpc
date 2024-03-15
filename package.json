@@ -3,10 +3,10 @@
   "version": "1.0.1",
   "description": "Type-safe inter-process communication",
   "private": true,
-  "homepage": "https://github.com/wexond/rpc#readme",
+  "homepage": "https://github.com/IroniumStudios/base-rpc/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wexond/rpc.git"
+    "url": "git+https://github.com/IroniumStudios/base-rpc.git"
   },
   "scripts": {
     "watch": "lerna run --stream --parallel watch",
