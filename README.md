@@ -19,7 +19,14 @@ However, if that's not sufficient, you can use [rpc-core](packages/rpc-core) to 
 
 Here's how to communicate with the main process from renderer using [rpc-electron](packages/rpc-electron):
 
-- Install `npm install --save @wexond/rpc-electron @wexond/rpc-core`
+- open your projects package.json file and add the rpc platforms locally loke so
+
+## This is a provided example of it being implamented in my project browser-base-updated
+```ts
+    "@wexond/rpc-core": "file:./base-rpc/packages/rpc-core",
+    "@wexond/rpc-electron": "file:./base-rpc/packages/rpc-electron",
+}
+
 - Create a file that is imported in both main and renderer processes, for example `ping-pong.ts`:
 
 ```ts
