@@ -1,6 +1,6 @@
 {
   "name": "@wexond/rpc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Type-safe inter-process communication",
   "private": true,
   "homepage": "https://github.com/wexond/rpc#readme",
@@ -32,7 +32,7 @@
     "rimraf": "^3.0.2",
     "sinon": "^9.2.4",
     "ts-node": "^9.1.1",
-    "typescript": "4.1.3"
+    "typescript": "5.3.3"
   },
   "workspaces": [
     "packages/*"
