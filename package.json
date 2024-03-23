@@ -1,6 +1,6 @@
 {
   "name": "@wexond/rpc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Type-safe inter-process communication",
   "private": true,
   "homepage": "https://github.com/IroniumStudios/base-rpc/blob/master/README.md",
@@ -12,7 +12,7 @@
     "watch": "lerna run --stream --parallel watch",
     "build:prod": "lerna run --stream build:prod",
     "prepublishOnly": "npm run build:prod",
-    "postinstall": "lerna link --force-local && yarn build:prod",
+    "postinstall": "yarn build:prod",
     "test": "lerna run --stream test"
   },
   "devDependencies": {
@@ -26,15 +26,16 @@
     "eslint": "^7.19.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-prettier": "^3.3.1",
-    "lerna": "^3.22.1",
+    "lerna": "^8.1.2",
     "mocha": "^8.2.1",
     "prettier": "2.2.1",
     "rimraf": "^3.0.2",
-    "sinon": "^9.2.4",
+    "sinon": "^16.1.1",
     "ts-node": "^9.1.1",
     "typescript": "5.3.3"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "license": "MIT"
 }
