@@ -19,7 +19,7 @@ However, if that's not sufficient, you can use [rpc-core](packages/rpc-core) to 
 
 Here's how to communicate with the main process from renderer using [rpc-electron](packages/rpc-electron):
 
-- open your projects package.json file and add the rpc platforms locally like so
+- open your projects package.json file and add the rpc platforms locally loke so
 
 ## This is a provided example of it being implamented in my project browser-base-updated
 
