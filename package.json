@@ -1,6 +1,6 @@
 {
   "name": "@wexond/rpc",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Type-safe inter-process communication",
   "private": true,
   "homepage": "https://github.com/IroniumStudios/base-rpc/blob/master/README.md",
