@@ -8,12 +8,19 @@ export class ObserverManager<T> {
   }
 
   public remove(observer: T) {
-    this.list.splice(this.list.indexOf(observer), 1);
+    const index = this.list.indexOf(observer);
+    if (index !== -1) {
+      this.list.splice(index, 1);
+    }
   }
 
   public notify(caller: ServiceCaller) {
     for (const observer of this.list) {
       caller.cb(observer);
     }
+  }
+
+  public removeAll() {
+    this.list.length = 0;
   }
 }
