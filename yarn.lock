@@ -1031,16 +1031,16 @@ __metadata:
   linkType: hard
 
 "@wexond/rpc-core@file:../rpc-core::locator=%40wexond%2Frpc-electron%40workspace%3Apackages%2Frpc-electron":
-  version: 1.0.9
-  resolution: "@wexond/rpc-core@file:../rpc-core#../rpc-core::hash=6daeba&locator=%40wexond%2Frpc-electron%40workspace%3Apackages%2Frpc-electron"
-  checksum: 10c0/f15d71d4f71a06a4085cecac04fcdd1aec90b7d3b21de3c3755c5b3f0a3086f36dc0d71c6f06412ac41879c9846ce2e6791126eaa7ff07d7cde07ddccad412cc
+  version: 2.0.0
+  resolution: "@wexond/rpc-core@file:../rpc-core#../rpc-core::hash=3ea9e3&locator=%40wexond%2Frpc-electron%40workspace%3Apackages%2Frpc-electron"
+  checksum: 10c0/cfbb7ed329973ba914507b293c8586c9d77f33d5ff846c9d2bf5c4392b2ab8e3d537c93632956a8bf0e9e106aceb32bb5b215179d948fac6f08ff57285927aa3
   languageName: node
   linkType: hard
 
 "@wexond/rpc-core@file:../rpc-core::locator=%40wexond%2Frpc-node%40workspace%3Apackages%2Frpc-node":
-  version: 1.0.9
-  resolution: "@wexond/rpc-core@file:../rpc-core#../rpc-core::hash=6daeba&locator=%40wexond%2Frpc-node%40workspace%3Apackages%2Frpc-node"
-  checksum: 10c0/f15d71d4f71a06a4085cecac04fcdd1aec90b7d3b21de3c3755c5b3f0a3086f36dc0d71c6f06412ac41879c9846ce2e6791126eaa7ff07d7cde07ddccad412cc
+  version: 2.0.0
+  resolution: "@wexond/rpc-core@file:../rpc-core#../rpc-core::hash=3ea9e3&locator=%40wexond%2Frpc-node%40workspace%3Apackages%2Frpc-node"
+  checksum: 10c0/cfbb7ed329973ba914507b293c8586c9d77f33d5ff846c9d2bf5c4392b2ab8e3d537c93632956a8bf0e9e106aceb32bb5b215179d948fac6f08ff57285927aa3
   languageName: node
   linkType: hard
 
