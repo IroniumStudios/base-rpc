@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@wexond/rpc-core": "file:../rpc-core",
-    "electron": "^29.3.0"
+    "electron": "^28.3.0"
   },
   "license": "MIT"
 }
