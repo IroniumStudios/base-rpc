@@ -1,6 +1,6 @@
 {
   "name": "@wexond/rpc-core",
-  "version": "1.0.9",
+  "version": "2.0.0",
   "license": "MIT",
   "description": "Core components for type-safe inter-process communication",
   "main": "build/index.js",
