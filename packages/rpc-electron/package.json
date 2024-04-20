@@ -1,6 +1,7 @@
 {
   "name": "@wexond/rpc-electron",
-  "version": "2.0.1",
+  "version": "2.0.2",
+  "license": "GPL-3.0",
   "description": "Type-safe inter-process communication for Electron",
   "keywords": [
     "electron",
@@ -29,7 +30,6 @@
   },
   "devDependencies": {
     "@wexond/rpc-core": "file:../rpc-core",
-    "electron": "^30.0.0"
-  },
-  "license": "MIT"
+    "electron": "^30.0.1"
+  }
 }
