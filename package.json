@@ -1,6 +1,7 @@
 {
   "name": "@wexond/rpc",
-  "version": "1.0.8",
+  "version": "1.0.9",
+  "license": "GPL-3.0",
   "description": "Type-safe inter-process communication",
   "private": true,
   "homepage": "https://github.com/IroniumStudios/base-rpc/blob/master/README.md",
@@ -37,6 +38,5 @@
   "workspaces": [
     "packages/*"
   ],
-  "license": "MIT",
   "packageManager": "yarn@4.1.1"
 }
