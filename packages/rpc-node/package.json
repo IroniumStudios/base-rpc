@@ -1,6 +1,6 @@
 {
   "name": "@wexond/rpc-node",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "license": "GPL-3.0",
   "description": "Type-safe communication between message ports from Node.js worker_threads module",
   "main": "build/index.js",
