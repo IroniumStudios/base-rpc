@@ -11,7 +11,7 @@
     "preserveWatchOutput": true,
 
     "module": "commonjs",
-    "target": "ES2023",
+    "target": "ES6",
     "lib": ["ES2023"],
     "moduleResolution": "node",
 
