@@ -11,8 +11,8 @@
     "preserveWatchOutput": true,
 
     "module": "commonjs",
-    "target": "es6",
-    "lib": ["esnext"],
+    "target": "ESNext",
+    "lib": ["ESNext"],
     "moduleResolution": "node",
 
     "outDir": "./build",
