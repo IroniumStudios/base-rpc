@@ -11,8 +11,8 @@
     "preserveWatchOutput": true,
 
     "module": "commonjs",
-    "target": "ESNext",
-    "lib": ["ESNext"],
+    "target": "ES2023",
+    "lib": ["ES2023"],
     "moduleResolution": "node",
 
     "outDir": "./build",
