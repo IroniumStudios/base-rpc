@@ -1,6 +1,6 @@
 {
   "name": "@wexond/rpc-electron",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Type-safe inter-process communication for Electron",
   "keywords": [
     "electron",
@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "@wexond/rpc-core": "file:../rpc-core",
-    "electron": "^30.0.6"
+    "electron": "^30.0.7"
   }
 }
