@@ -1,6 +1,6 @@
 {
   "name": "@ironiumstudios/rpc-node",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Type-safe communication between message ports from Node.js worker_threads module",
   "main": "build/index.js",
   "typings": "build/index.d.ts",
@@ -19,6 +19,6 @@
     "prepublishOnly": "npm run build:prod"
   },
   "devDependencies": {
-    "@ironiumstudios/rpc-core": "2.0.6"
+    "@ironiumstudios/rpc-core": "2.0.7"
   }
 }
