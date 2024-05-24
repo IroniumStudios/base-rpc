@@ -1,7 +1,9 @@
 {
   "version": "2.0.7",
   "packages": [
-    "packages/*"
+    "rpc-core",
+    "rpc-electron",
+    "rpc-node"
   ],
   "npmClient": "yarn"
 }

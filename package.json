@@ -1,6 +1,6 @@
 {
   "name": "@ironiumstudios/rpc",
-  "version": "2.0.3",
+  "version": "0.0.0-beta.0",
   "description": "Type-safe inter-process communication",
   "homepage": "https://github.com/IroniumStudios/ironiumstudios-rpc/blob/master/README.md",
   "repository": {
@@ -34,7 +34,9 @@
     "typescript": "^5.4.5"
   },
   "workspaces": [
-    "packages/*"
+    "rpc-core",
+    "rpc-electron",
+    "rpc-node"
   ],
   "packageManager": "yarn@4.2.2"
 }
