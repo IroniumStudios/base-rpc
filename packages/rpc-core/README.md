@@ -1,14 +1,18 @@
-# @wexond/rpc-core
+# @ironiumstudios/rpc-core
 
 Core components for type-safe communication.
 
-[![NPM](https://img.shields.io/npm/v/@wexond/rpc-core.svg?style=flat-square)](https://www.npmjs.com/package/@wexond/rpc-core)
-[![NPM](https://img.shields.io/npm/dm/@wexond/rpc-core?style=flat-square)](https://www.npmjs.com/package/@wexond/rpc-core)
+## NOTE:
+
+this project is licensed under the company wexond, i am only forking this project to modernize it and i wish for no trouble from the wexond devs or redbrick
+
+[![NPM](https://img.shields.io/npm/v/@ironiumstudios/rpc-core.svg?style=flat-square)](https://www.npmjs.com/package/@ironiumstudios/rpc-core)
+[![NPM](https://img.shields.io/npm/dm/@ironiumstudios/rpc-core?style=flat-square)](https://www.npmjs.com/package/@ironiumstudios/rpc-core)
 
 ## Installation
 
 ```bash
-$ npm install --save @wexond/rpc-core
+$ npm install --save @ironiumstudios/rpc-core
 ```
 
 ## Usage

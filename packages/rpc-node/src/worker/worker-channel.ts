@@ -4,7 +4,7 @@ import {
   createServiceProxy,
   makeRandomId,
   RpcScaffold,
-} from '@wexond/rpc-core';
+} from '@ironiumstudios/rpc-core';
 import { WorkerReceiver } from './worker-receiver';
 import { RpcWorkerRequest, RpcWorkerResponse } from '../interfaces';
 

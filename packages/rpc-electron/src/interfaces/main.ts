@@ -4,7 +4,7 @@ import {
   RpcHandler,
   RpcEventBase,
   RpcObserver,
-} from '@wexond/rpc-core';
+} from '@ironiumstudios/rpc-core';
 
 export type RpcMainHandler<T extends RpcScaffold<T>> = RpcHandler<
   T,

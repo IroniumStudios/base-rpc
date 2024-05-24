@@ -2,7 +2,7 @@ import {
   SingleReceiverChannel,
   createServiceProxy,
   RpcScaffold,
-} from '@wexond/rpc-core';
+} from '@ironiumstudios/rpc-core';
 
 import { MainReceiver } from './main-receiver';
 import { checkIpcContext, getIpcRenderer } from '../utils';

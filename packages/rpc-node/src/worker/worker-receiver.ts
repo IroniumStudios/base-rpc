@@ -1,5 +1,5 @@
 import { MessagePort, Worker } from 'worker_threads';
-import { Receiver, RpcScaffold } from '@wexond/rpc-core';
+import { Receiver, RpcScaffold } from '@ironiumstudios/rpc-core';
 
 import {
   RpcWorkerHandler,

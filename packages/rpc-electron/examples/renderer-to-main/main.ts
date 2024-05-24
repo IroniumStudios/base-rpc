@@ -2,7 +2,7 @@ import {
   RpcMainHandler,
   RpcMainEvent,
   RpcMainObserver,
-} from '@wexond/rpc-electron';
+} from '@ironiumstudios/rpc-electron';
 
 import { LoggerService, loggerChannel } from './shared';
 

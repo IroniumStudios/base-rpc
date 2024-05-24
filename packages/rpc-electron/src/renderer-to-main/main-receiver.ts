@@ -3,7 +3,7 @@ import {
   RpcScaffold,
   clearEvents,
   getNoHandlerError,
-} from '@wexond/rpc-core';
+} from '@ironiumstudios/rpc-core';
 
 import { RpcMainHandler, RpcMainObserver } from '../interfaces';
 import { checkIpcContext, getIpcMain } from '../utils';

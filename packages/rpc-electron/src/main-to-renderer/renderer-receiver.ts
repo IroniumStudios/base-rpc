@@ -1,4 +1,4 @@
-import { Receiver, RpcScaffold, clearEvents } from '@wexond/rpc-core';
+import { Receiver, RpcScaffold, clearEvents } from '@ironiumstudios/rpc-core';
 
 import { RpcRendererHandler, RpcRendererObserver } from '../interfaces';
 import { checkIpcContext, getIpcRenderer } from '../utils';

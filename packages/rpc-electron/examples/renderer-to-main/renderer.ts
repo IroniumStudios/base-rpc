@@ -4,7 +4,7 @@ import { ipcRenderer } from 'electron';
 // This can be useful if your webContents has |contextIsolation| set to true,
 // which implies that `require('electron').ipcRenderer` would not work.
 // Though, channels could be exposed using |contextBridge| also.
-import { setIpcRenderer } from '@wexond/rpc-electron';
+import { setIpcRenderer } from '@ironiumstudios/rpc-electron';
 setIpcRenderer(ipcRenderer);
 
 import { loggerChannel } from './shared';

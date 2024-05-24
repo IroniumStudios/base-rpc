@@ -1,5 +1,5 @@
 {
-  "name": "@wexond/rpc-node",
+  "name": "@ironiumstudios/rpc-node",
   "version": "2.0.6",
   "description": "Type-safe communication between message ports from Node.js worker_threads module",
   "main": "build/index.js",
@@ -19,6 +19,6 @@
     "prepublishOnly": "npm run build:prod"
   },
   "devDependencies": {
-    "@wexond/rpc-core": "file:../rpc-core"
+    "@ironiumstudios/rpc-core": "2.0.6"
   }
 }

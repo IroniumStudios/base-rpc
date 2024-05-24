@@ -3,7 +3,7 @@ import { expect } from 'chai';
 import * as sinon from 'sinon';
 import {
   Channel
-} from '@wexond/rpc-core';
+} from '@ironiumstudios/rpc-core';
 
 process.env.TEST = 'true';
 

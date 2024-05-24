@@ -1,12 +1,12 @@
 {
-  "name": "@wexond/rpc",
+  "name": "@ironiumstudios/rpc",
   "version": "2.0.3",
   "description": "Type-safe inter-process communication",
-  "private": true,
-  "homepage": "https://github.com/IroniumStudios/base-rpc/blob/master/README.md",
+  "private": false,
+  "homepage": "https://github.com/IroniumStudios/ironiumstudios-rpc/blob/master/README.md",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IroniumStudios/base-rpc.git"
+    "url": "git+https://github.com/IroniumStudios/ironiumstudios-rpc.git"
   },
   "scripts": {
     "watch": "lerna run --stream --parallel watch",

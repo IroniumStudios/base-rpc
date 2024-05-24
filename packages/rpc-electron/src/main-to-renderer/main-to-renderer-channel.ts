@@ -3,7 +3,7 @@ import {
   createServiceProxy,
   makeRandomId,
   RpcScaffold,
-} from '@wexond/rpc-core';
+} from '@ironiumstudios/rpc-core';
 
 import { RendererReceiver } from './renderer-receiver';
 import { checkIpcContext, getIpcMain } from '../utils';

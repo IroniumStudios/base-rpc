@@ -3,7 +3,7 @@ import {
   RpcWorkerEvent,
   RpcWorkerHandler,
   RpcWorkerObserver,
-} from '@wexond/rpc-node';
+} from '@ironiumstudios/rpc-node';
 
 import { LoggerService, loggerChannel } from './shared';
 

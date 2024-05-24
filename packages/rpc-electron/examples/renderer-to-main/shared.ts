@@ -1,4 +1,4 @@
-import { RendererToMainChannel } from '@wexond/rpc-electron';
+import { RendererToMainChannel } from '@ironiumstudios/rpc-electron';
 
 // Shared is a common file imported by both main process and renderers.
 

@@ -6,7 +6,7 @@ import {
   RpcObserver,
   RpcScaffold,
   SyncScaffold,
-} from '@wexond/rpc-core';
+} from '@ironiumstudios/rpc-core';
 
 export type RpcWorkerHandler<T extends RpcScaffold<T>> = RpcHandler<
   OptionalPromiseScaffold<T>,

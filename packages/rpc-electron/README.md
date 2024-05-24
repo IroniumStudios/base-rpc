@@ -1,15 +1,19 @@
-# @wexond/rpc-electron
+# @ironiumstudios/rpc-electron
 
 Type-safe communication between Electron processes.
 No more remembering IPC channel names, parameters order and their types.
 
-[![NPM](https://img.shields.io/npm/v/@wexond/rpc-electron.svg?style=flat-square)](https://www.npmjs.com/package/@wexond/rpc-electron)
-[![NPM](https://img.shields.io/npm/dm/@wexond/rpc-electron?style=flat-square)](https://www.npmjs.com/package/@wexond/rpc-electron)
+## NOTE:
+
+this project is licensed under the company wexond, i am only forking this project to modernize it and i wish for no trouble from the wexond devs or redbrick
+
+[![NPM](https://img.shields.io/npm/v/@ironiumstudios/rpc-electron.svg?style=flat-square)](https://www.npmjs.com/package/@ironiumstudios/rpc-electron)
+[![NPM](https://img.shields.io/npm/dm/@ironiumstudios/rpc-electron?style=flat-square)](https://www.npmjs.com/package/@ironiumstudios/rpc-electron)
 
 ## Installation
 
 ```bash
-$ npm install --save @wexond/rpc-electron @wexond/rpc-core
+$ npm install --save @ironiumstudios/rpc-electron @ironiumstudios/rpc-core
 ```
 
 ## Quick start
@@ -19,7 +23,7 @@ Here's an example of communication from the renderer process to the main process
 - Create a file that is imported in both main and renderer processes, for example `ping-pong.ts`:
 
 ```ts
-import { RendererToMainChannel } from '@wexond/rpc-electron';
+import { RendererToMainChannel } from '@ironiumstudios/rpc-electron';
 
 export interface PingPongService {
   ping(): string;
@@ -47,7 +51,7 @@ const pingPongService = pingPongChannel.getInvoker();
 - Code for the main process:
 
 ```ts
-import { RpcMainHandler } from '@wexond/rpc-electron';
+import { RpcMainHandler } from '@ironiumstudios/rpc-electron';
 import { PingPongService, pingPongChannel } from './ping-pong';
 
 // Equivalent of |ipcMain.handle|

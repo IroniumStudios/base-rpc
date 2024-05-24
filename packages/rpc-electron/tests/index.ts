@@ -11,7 +11,7 @@ import {
   MainToRendererChannel,
   RpcRendererHandler,
   RpcRendererObserver,
-} from '@wexond/rpc-electron';
+} from '@ironiumstudios/rpc-electron';
 
 process.env.TEST = 'true';
 

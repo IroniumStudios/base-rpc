@@ -6,6 +6,10 @@ Type-safe communication between processes.
 No more remembering channel names, parameters order and their types.
 It was designed with compatibility for the following environments:
 
+## NOTE:
+
+this project is licensed under the company wexond, i am only forking this project to modernize it and i wish for no trouble from the wexond devs or redbrick
+
 - [Electron](packages/rpc-electron),
 - [Node.js](packages/rpc-node),
 - or as [a standalone library](packages/rpc-core) for implementing custom communication handlers.
@@ -30,14 +34,14 @@ Here's how to communicate with the main process from renderer using [rpc-electro
 ## This is a provided example of it being implamented in my project browser-base-updated
 
 ```bash
-"@wexond/rpc-core": "file:./base-rpc/packages/rpc-core",
-"@wexond/rpc-electron": "file:./base-rpc/packages/rpc-electron",
+"@ironiumstudios/rpc-core": "file:./base-rpc/packages/rpc-core",
+"@ironiumstudios/rpc-electron": "file:./base-rpc/packages/rpc-electron",
 ```
 
 - Create a file that is imported in both main and renderer processes, for example `ping-pong.ts`:
 
 ```ts
-import { RendererToMainChannel } from '@wexond/rpc-electron';
+import { RendererToMainChannel } from '@ironiumstudios/rpc-electron';
 
 export interface PingPongService {
   ping(): string;
@@ -64,7 +68,7 @@ const pingPongService = pingPongChannel.getInvoker();
 - Code for the main process:
 
 ```ts
-import { RpcMainHandler } from '@wexond/rpc-electron';
+import { RpcMainHandler } from '@ironiumstudios/rpc-electron';
 import { PingPongService, pingPongChannel } from './ping-pong';
 
 // Equivalent of |ipcMain.handle|
