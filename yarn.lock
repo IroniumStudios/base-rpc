@@ -150,7 +150,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ironiumstudios/rpc-core@npm:2.0.7, @ironiumstudios/rpc-core@workspace:packages/rpc-core":
+"@ironiumstudios/rpc-core@npm:latest":
+  version: 2.0.6
+  resolution: "@ironiumstudios/rpc-core@npm:2.0.6"
+  checksum: 10c0/77fdee9a580799d67ef14ca923b042b364a8bbe56366610bef4f9773b3504966da936eeb4bbcd2edd7ebe40fd05a457361739e6fdf9044bfd165cd98e60c90c9
+  languageName: node
+  linkType: hard
+
+"@ironiumstudios/rpc-core@workspace:packages/rpc-core":
   version: 0.0.0-use.local
   resolution: "@ironiumstudios/rpc-core@workspace:packages/rpc-core"
   languageName: unknown
@@ -160,7 +167,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ironiumstudios/rpc-electron@workspace:packages/rpc-electron"
   dependencies:
-    "@ironiumstudios/rpc-core": "npm:2.0.7"
+    "@ironiumstudios/rpc-core": "npm:latest"
     electron: "npm:^30.0.8"
   languageName: unknown
   linkType: soft
@@ -169,7 +176,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ironiumstudios/rpc-node@workspace:packages/rpc-node"
   dependencies:
-    "@ironiumstudios/rpc-core": "npm:2.0.7"
+    "@ironiumstudios/rpc-core": "npm:latest"
   languageName: unknown
   linkType: soft
 
