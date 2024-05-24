@@ -1,4 +1,4 @@
-# RPC
+# @ironiumstudios/rpc
 
 [![Discord](https://discordapp.com/api/guilds/307605794680209409/widget.png?style=shield)](https://discord.gg/P7Vn4VX)
 
