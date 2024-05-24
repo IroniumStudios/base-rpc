@@ -19,6 +19,6 @@
     "prepublishOnly": "npm run build:prod"
   },
   "devDependencies": {
-    "@ironiumstudios/rpc-core": "2.0.7"
+    "@ironiumstudios/rpc-core": "latest"
   }
 }

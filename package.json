@@ -2,7 +2,6 @@
   "name": "@ironiumstudios/rpc",
   "version": "2.0.3",
   "description": "Type-safe inter-process communication",
-  "private": false,
   "homepage": "https://github.com/IroniumStudios/ironiumstudios-rpc/blob/master/README.md",
   "repository": {
     "type": "git",
