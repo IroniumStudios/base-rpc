@@ -1,6 +1,6 @@
 {
   "name": "@ironiumstudios/rpc-electron",
-  "version": "2.0.8",
+  "version": "3.0.1",
   "description": "Type-safe inter-process communication for Electron",
   "keywords": [
     "electron",
@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "@ironiumstudios/rpc-core": "latest",
-    "electron": "^30.0.8"
+    "electron": "^31.0.1"
   }
 }
